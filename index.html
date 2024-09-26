@@ -8,6 +8,42 @@
   </head>
   <body>
 
+    <div class="feedback-form">
+      <div class="feedback-form__title">
+        Заполните данные
+      </div>
+      <form action="">
+        <input placeholder="Имя" name="feedbackName" id="feedbackName" type="text" class="feedback-form__item">
+        <input placeholder="Телефон" name="feedbackPhone" id="feedbackPhone" type="tel" maxlength="17" class="feedback-form__item">
+        <button class="feedback-form__button" type="submit">
+          Купить
+        </button>
+      </form>
+      <p class="feedback-form__policy">
+        Нажимая на кнопку, вы соглашаетесь с обработкой <a href="#">персональных данных</a>
+      </p>
+
+      <div class="feedback-form__success">
+        <div class="feedback-form__success_ico">
+          <svg width="89" height="82" viewBox="0 0 89 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.2657 0C5.04701 5.80021e-06 0 5.11013 0 11.3839V56.6437C0 62.9175 5.04701 68.0157 11.2657 68.0157H34.5298L42.9277 81.2939C43.5277 82.2354 44.8947 82.2354 45.4947 81.2939L53.8897 68.0157H77.1656C83.3844 68.0157 88.4314 62.917 88.4314 56.6437V11.3839C88.4314 5.1107 83.3844 5.80021e-06 77.1656 0H11.2657ZM29.4761 16.0418C33.2055 16.0418 36.263 19.1199 36.263 22.8727C36.263 26.6255 33.2055 29.6917 29.4761 29.6917C25.7467 29.6917 22.6893 26.6255 22.6893 22.8727C22.6893 19.1199 25.7467 16.0418 29.4761 16.0418ZM58.9433 16.0418C62.6727 16.0418 65.7302 19.1199 65.7302 22.8727C65.7302 26.6255 62.6727 29.6917 58.9433 29.6917C55.2139 29.6917 52.1565 26.6255 52.1565 22.8727C52.1565 19.1199 55.2139 16.0418 58.9433 16.0418ZM26.8436 34.6642H61.5789C62.4174 34.6676 63.0959 35.3519 63.0976 36.1959C63.0977 46.6715 54.6245 55.1932 44.2112 55.193C33.798 55.1931 25.3247 46.6715 25.3248 36.1959C25.3265 35.3519 26.005 34.6676 26.8436 34.6642Z" fill="url(#paint0_linear_2101_7669)" />
+            <defs>
+              <linearGradient id="paint0_linear_2101_7669" x1="-15.6455" y1="9.46154" x2="71.1728" y2="78.8153" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#3DC0FF" />
+                <stop offset="1" stop-color="#8F00FF" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="feedback-form__success_title">
+          Спасибо
+        </div>
+        <div class="feedback-form__success_text">
+          Заявка успешно отправлена, свяжемся с вами в ближайшее время!
+        </div>
+        <div class="feedback-form__close">Закрыть</div>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
